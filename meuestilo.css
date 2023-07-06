@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@400;500;800&display=swap');
+
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Akatab', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+    font-family: var(--font2);
+}
+
+header {
+    background-image: url(./imagens/Dayron\ Tinoco\ Rocha.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    font-size: 30px;
+}
+
+.blocos {
+    padding-top: 45vh;
+    padding-bottom: 30vh;
+}
+
+#apresentacao {
+    padding-top: vh;
+    padding-left: 90px;
+    font-weight: bolder;
+}
+
+#nome {
+    font-size: 100px;
+    line-height: 90px;
+}
+
+#funcao {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.408);
+}
+
+#conteudo {
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+
+}
+
+#frase {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+a {
+    width: 30px;
+}
+
+
+
