@@ -59,16 +59,40 @@ header {
     font-size: 30px;
 }
 
+#apresentacao2 {
+    display: flex;
+}
+
+#texto {
+    text-align: justify;
+}
+
+#imagem {
+    width: 30vh;
+}
+
+#tecnologia {
+    font-size: 3em;
+}
+
+#carouselExampleFade {
+    padding-bottom: 30vh;
+    padding-top: 30vh;
+    margin: 0 auto;
+    width: 60vh;
+}
+
+
+
+
+
+
 
 ul {
     display: flex;
     justify-content: center;
     gap: 20px;
     list-style: none;
-}
-
-a {
-    width: 30px;
 }
 
 
