@@ -15,6 +15,7 @@ body {
     background-color: #141414;
     color: white;
     font-family: var(--font2);
+    width: 100vw;
 }
 
 header {
@@ -28,11 +29,10 @@ header {
 
 .blocos {
     padding-top: 45vh;
-    padding-bottom: 30vh;
+    padding-bottom: 45vh;
 }
 
 #apresentacao {
-    padding-top: vh;
     padding-left: 90px;
     font-weight: bolder;
 }
@@ -60,16 +60,24 @@ header {
 }
 
 #apresentacao2 {
+    padding-left: 5vw;
+    padding-right: 5vw;
     display: flex;
+    height: 80vw;
+    justify-content: space-around;
+   
 }
 
 #texto {
+    font-size: 0.75em;
     text-align: justify;
+    width: 500px;
 }
 
-#imagem {
-    width: 30vh;
+#eu {
+    min-width: 200px;
 }
+  
 
 #tecnologia {
     font-size: 3em;
@@ -90,5 +98,12 @@ ul {
     list-style: none;
 }
 
+footer ul li {
+    width: 60px;
+}
 
-
+@media(max-width: 1024px) {
+    #eu {
+    display: none;
+    }
+}
