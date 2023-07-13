@@ -63,7 +63,7 @@ header {
     padding-left: 5vw;
     padding-right: 5vw;
     display: flex;
-    height: 80vw;
+    height: 90vw;
     justify-content: space-around;
    
 }
@@ -74,20 +74,31 @@ header {
     width: 500px;
 }
 
+aside h3 {
+    font-size: 1.75em;
+    font-weight: bolder;
+}
+
+aside input {
+    border-radius: 15px;
+    padding: 0px 10px;
+    font-weight: 500;
+}
+
 #eu {
-    min-width: 200px;
+    min-width: 100px;
 }
   
 
 #tecnologia {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 #carouselExampleFade {
     padding-bottom: 30vh;
     padding-top: 30vh;
     margin: 0 auto;
-    width: 60vh;
+    width: 450px;
 }
 
 
@@ -105,5 +116,17 @@ footer ul li {
 @media(max-width: 1024px) {
     #eu {
     display: none;
+    }
+    #carouselExampleFade {
+        width: 300px;
+    }
+}
+
+@media(max-width: 900px) {
+    #eu {
+    display: none;
+    }
+    #carouselExampleFade {
+        width: 200px;
     }
 }
